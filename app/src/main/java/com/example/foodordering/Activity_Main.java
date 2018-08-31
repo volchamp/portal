@@ -125,6 +125,8 @@ public class Activity_Main extends BaseActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);//让导航按钮显示出来
             actionBar.setHomeAsUpIndicator(R.mipmap.ic_menu);//设置导航按钮图标
         }
+        //加载底部导航栏及选中事件
+        loadBottomNavigationBar();
     }
 
     private void initView() {
@@ -135,10 +137,10 @@ public class Activity_Main extends BaseActivity {
         //动态加载侧滑栏头部及点击事件
         loadHeaderView();
 
-        if (isRefresh) {
-            //加载底部导航栏及选中事件
-            loadBottomNavigationBar();
-        }
+//        if (isRefresh) {
+//            //加载底部导航栏及选中事件
+//            loadBottomNavigationBar();
+//        }
     }
 
     /**
@@ -225,8 +227,8 @@ public class Activity_Main extends BaseActivity {
                         }
                         break;
                     case R.id.nav_food_delivery://食品配送
-                       if (statusCode == 200) {
-                           Activity_FoodDelivery.actionStart(context);
+                        if (statusCode == 200) {
+                            Activity_FoodDelivery.actionStart(context);
                         } else {
                             Toast.makeText(context, "请先登录!", Toast.LENGTH_SHORT).show();
                         }
@@ -562,8 +564,10 @@ public class Activity_Main extends BaseActivity {
                 break;
         }
     }
+
     /**
      * 分享回调处理
+     *
      * @param channel
      * @param status
      */
