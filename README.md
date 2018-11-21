@@ -1,5 +1,4 @@
 ## 在哪里找到我：
-----
 我的GitHub：
 [https://github.com/yangxch](https://github.com/yangxch)
 
@@ -13,6 +12,7 @@
 [http://www.cnblogs.com/xch-yang/](http://www.cnblogs.com/xch-yang/)
 
 我的微信公众号：ChaoYoung
+<br>
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_chaoyoung.jpg" width="20%" height="20%">
 
 ----
