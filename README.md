@@ -82,11 +82,13 @@
 ### 二维码扫描
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_scan.jpg" width="30%" height="30%">
 
-后台管理有菜品二维码：[去后台](http://123.207.239.170/OrderFoodApp)
+后台管理有菜品二维码：[去后台](http://111.231.191.26/FoodOrdering)
 
 ps：如果哪天App没数据了，后台管理404了，可能是我养不住服务器了。
 
 pps:服务器已经没了，2018/10/20
+
+ppps:买了个新的云服务器（准备吃土了），现在可正常使用，2019/2/2
 
 
 ***
