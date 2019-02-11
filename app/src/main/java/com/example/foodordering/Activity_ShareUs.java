@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.foodordering.util.Util;
 import com.xyzlf.share.library.bean.ShareEntity;
 import com.xyzlf.share.library.interfaces.ShareConstant;
 import com.xyzlf.share.library.util.ShareUtil;
@@ -42,10 +43,10 @@ public class Activity_ShareUs extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         iv_qrcode_download= (ImageView) findViewById(R.id.iv_qrcode_download);
-        Glide.with(Activity_ShareUs.this).load("http://123.207.239.170/FoodOrdering/bysj/qr_download_apk/bysj_qr_download_apk.png").into(iv_qrcode_download);
+        Glide.with(Activity_ShareUs.this).load(Util.Url+"File/bysj/qr_download_apk/bysj_qr_download_apk.png").into(iv_qrcode_download);
 
         //食品学院的
-//        Glide.with(Activity_ShareUs.this).load("http://123.207.239.170/FoodOrdering/spxy/qr_download_apk/foodordering_apk_download.png").into(iv_qrcode_download);
+//        Glide.with(Activity_ShareUs.this).load(Util.Url+"File/spxy/qr_download_apk/foodordering_apk_download.png").into(iv_qrcode_download);
         iv_qrcode_download.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
@@ -59,14 +60,14 @@ public class Activity_ShareUs extends AppCompatActivity {
      * 弹出分享对话框
      */
     public void showShareDialog() {
-        ShareEntity testBean = new ShareEntity("懒人外卖", "点击此推送即可下载懒人外卖App。");
-        testBean.setUrl("http://123.207.239.170/FoodOrdering/bysj/apk/foodOrdering.apk"); //apk下载链接
-        testBean.setImgUrl("http://123.207.239.170/FoodOrdering/bysj/share/img_share.jpg");
+        ShareEntity shareBean = new ShareEntity("懒人外卖", "点击此推送即可下载懒人外卖App。");
+        shareBean.setUrl(Util.Url+"File/bysj/apk/foodOrdering.apk"); //apk下载链接
+        shareBean.setImgUrl(Util.Url+"File/bysj/share/img_share.jpg");
 
         //下面是食品学院的（虽然有点拒绝）
-//        testBean.setUrl("http://123.207.239.170/FoodOrdering/spxy/apk/foodOrdering.apk"); //分享链接
-//        testBean.setImgUrl("http://123.207.239.170/FoodOrdering/spxy/share/img_share.jpg");
-        ShareUtil.showShareDialog(this, testBean, ShareConstant.REQUEST_CODE);
+//        shareBean.setUrl(Util.Url+"File/spxy/apk/foodOrdering.apk"); //分享链接
+//        shareBean.setImgUrl(Util.Url+"File/spxy/share/img_share.jpg");
+        ShareUtil.showShareDialog(this, shareBean, ShareConstant.REQUEST_CODE);
     }
 
     @Override

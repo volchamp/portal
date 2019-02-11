@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.foodordering.control.BaseActivity;
+import com.example.foodordering.util.Util;
 import com.xyzlf.share.library.bean.ShareEntity;
 import com.xyzlf.share.library.interfaces.ShareConstant;
 import com.xyzlf.share.library.util.ShareUtil;
@@ -43,7 +44,7 @@ public class Activity_AboutUs extends BaseActivity {
         }
         iv_qrcode_download= (ImageView) findViewById(R.id.iv_qrcode_download);
 
-        Glide.with(Activity_AboutUs.this).load("http://123.207.239.170/FoodOrdering/bysj/chaoyoung_qrcode/qr_chaoyoung_wxgzh.jpg").into(iv_qrcode_download);
+        Glide.with(Activity_AboutUs.this).load(Util.Url+"File/bysj/chaoyoung_qrcode/qr_chaoyoung_wxgzh.jpg").into(iv_qrcode_download);
 
         iv_qrcode_download.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
@@ -59,8 +60,8 @@ public class Activity_AboutUs extends BaseActivity {
      */
     public void showShareDialog() {
         ShareEntity testBean = new ShareEntity("关注微信公众号ChaoYoung", "关注一下，超哥就带你搞事情");
-        testBean.setUrl("http://123.207.239.170/chaoyoung/"); //分享链接
-        testBean.setImgUrl("http://123.207.239.170/FoodOrdering/bysj/chaoyoung_qrcode/qr_chaoyoung_wxgzh.jpg");
+        testBean.setUrl(Util.Url+"chaoyoung/"); //分享链接
+        testBean.setImgUrl(Util.Url+"File/bysj/chaoyoung_qrcode/qr_chaoyoung_wxgzh.jpg");
         ShareUtil.showShareDialog(this, testBean, ShareConstant.REQUEST_CODE);
     }
 

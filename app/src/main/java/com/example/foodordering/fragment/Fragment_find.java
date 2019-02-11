@@ -169,7 +169,7 @@ public class Fragment_find extends Fragment implements ViewPagerEx.OnPageChangeL
         file_maps.put("假期不打烊 舒适不打折", R.mipmap.hannibal);
         file_maps.put("生活快节奏 不负好时光", R.mipmap.bigbang);
         file_maps.put("食“色”生香 5折特色菜", R.mipmap.house);
-        file_maps.put("图片素材由谢欣拍摄提供", R.mipmap.game_of_thrones);
+        file_maps.put("感谢金毛拍摄提供图片素材", R.mipmap.game_of_thrones);
 
         for (String name : file_maps.keySet()) {
             TextSliderView textSliderView = new TextSliderView(mContext);
