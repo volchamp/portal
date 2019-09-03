@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/cell_normal"
                 android:gravity="center_vertical"
-                android:text="18468082825"
+                android:text="18888088888"
                 android:textSize="18dp" />
 
         </LinearLayout>

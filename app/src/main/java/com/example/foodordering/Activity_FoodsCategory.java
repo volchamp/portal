@@ -248,7 +248,7 @@ public class Activity_FoodsCategory extends BaseActivity {
                 finish();
                 break;
             case R.id.call:
-                String phoneNumber = "18468182835";
+                String phoneNumber = "18888888888";
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);

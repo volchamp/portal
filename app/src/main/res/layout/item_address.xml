@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/primary_text"
                     android:textSize="@dimen/font_large"
-                    tools:text="杨雄超" />
+                    tools:text="ChaoYoung" />
 
                 <TextView
                     android:id="@+id/tvSex_Address"
@@ -45,7 +45,7 @@
                     android:layout_marginLeft="@dimen/spacing_major"
                     android:textColor="@color/primary_text"
                     android:textSize="@dimen/font_large"
-                    tools:text="18468182835" />
+                    tools:text="18888888888" />
 
             </LinearLayout>
 

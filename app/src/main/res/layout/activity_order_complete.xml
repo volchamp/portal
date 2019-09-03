@@ -57,7 +57,7 @@
                 android:id="@+id/tv_consignee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="收件人：用户名-18468100000" />
+                android:text="收件人：用户名-18460000000" />
 
             <TextView
                 android:id="@+id/tv_receivingAddress"

@@ -69,7 +69,7 @@
                             android:padding="@dimen/spacing_micro"
                             android:textColor="@color/primary_text"
                             android:textSize="@dimen/font_normal"
-                            tools:text="杨雄超" />
+                            tools:text="ChaoYoung" />
 
                         <TextView
                             android:id="@+id/sex"
@@ -91,7 +91,7 @@
                             android:padding="@dimen/spacing_micro"
                             android:textColor="@color/primary_text"
                             android:textSize="@dimen/font_normal"
-                            tools:text="18468182835" />
+                            tools:text="18888888888" />
 
                         <TextView
                             android:id="@+id/address"
