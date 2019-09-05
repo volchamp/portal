@@ -65,7 +65,7 @@
 ### 个人信息管理
 <div>
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/user_info.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/modf_info.png" width="30%" height="30%">
+<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/modif_info.png" width="30%" height="30%">
 </div>
 
 ### 智能客服助手
