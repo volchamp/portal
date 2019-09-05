@@ -5,9 +5,6 @@
 我的简书：
 [https://www.jianshu.com/u/51edaa188222](https://www.jianshu.com/u/51edaa188222)
 
-我的CSDN博客：
-[https://blog.csdn.net/xch_yang](https://blog.csdn.net/xch_yang)
-
 
 我的微信公众号：ChaoYoung
 <br>
@@ -18,9 +15,11 @@
 <br>
 
 # FoodOrdering
-+ **服务端及数据库备份**在我公众号回复“懒人外卖”即可获取。
++ **服务端及数据库备份**在我公众号回复“**懒人外卖**”即可获取。
 
 + 外卖点餐App，主要功能包括：登录、注册、订餐（支付方式为模拟支付）、订单管理、订单评价、用户信息管理、收货地址管理、地图定位、视频监控、送餐导航、智能客服助手（图灵机器人）、二维码扫描、微信分享、App扫码下载、当前定位城市天气查询等功能。
+
+<br>
 
 ### 主要功能模块
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/function.jpg" width="70%" height="35%">
