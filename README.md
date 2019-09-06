@@ -92,8 +92,8 @@
 ### 二维码扫描
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_scan.jpg" width="30%" height="30%">
 
-后台管理有菜品二维码：[去后台](http://111.231.191.26/FoodOrdering)
-
+后台有菜品二维码：[去后台](http://111.231.191.26/FoodOrdering)
+商家后台管理主要功能有：**商品管理**，**商家管理**，**用户管理**，**订单管理**（具体效果可以去我公众号文章里查看）。
 <br>
 ps：如果哪天App没数据了，后台管理404了，可能是我养不住服务器了。
 
