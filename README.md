@@ -49,6 +49,15 @@
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/order_complete.png" width="30%" height="30%">
 </div> 
 
+### 订单管理
+<div> 
+<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/all_order.png" width="30%" height="30%">
+<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/wait_comment.png" width="30%" height="30%">
+</div>
+
+### 我的评论
+<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/my_comment.jpg" width="30%" height="30%">
+
 ### 地址管理
 <div> 
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/address_list.png" width="30%" height="30%">
@@ -77,6 +86,9 @@
 
 ### 分享功能
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/share.jpg" width="30%" height="30%">
+
+### 天气查询
+<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/weather.jpg" width="30%" height="30%">
 
 ### 二维码扫描
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_scan.jpg" width="30%" height="30%">
