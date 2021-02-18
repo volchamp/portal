@@ -6,7 +6,7 @@
 [https://www.jianshu.com/u/51edaa188222](https://www.jianshu.com/u/51edaa188222)
 
 
-我的微信公众号：ChaoYoung
+我的微信公众号：程序员大佬超
 <br>
 <img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_chaoyoung.jpg" width="20%" height="20%">
 

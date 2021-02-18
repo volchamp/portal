@@ -13,7 +13,7 @@ import com.example.foodordering.Activity_Main;
 
 public class Util {
     private static AlertDialog mAlertDialog;
-    public static String Url = "http://111.231.191.26/FoodOrdering/";
+    public static String Url = "http://192.168.3.120/orderFoodApp/";
     private static Toast toast;
     private static boolean IsConnect = true;
 

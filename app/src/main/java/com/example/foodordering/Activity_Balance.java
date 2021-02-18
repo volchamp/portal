@@ -112,11 +112,11 @@ public class Activity_Balance extends BaseActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tvBalance://结算
-            if(longitude<=0||latitude<=0){
-                Util.showToast(Activity_Balance.this,"此收货地址未包含经纬度信息，请重新选择或新建地址");
-}else{
-                Activity_Payment.actionStart(Activity_Balance.this, userId, cost, statusCode, userName, email, sex, phoneNumber, nickname, address, avatar, arrayList, remarkContent, longitude, latitude);
-}
+                if (longitude <= 0 || latitude <= 0) {
+                    Util.showToast(Activity_Balance.this, "此收货地址未包含经纬度信息，请重新选择或新建地址");
+                } else {
+                    Activity_Payment.actionStart(Activity_Balance.this, userId, cost, statusCode, userName, email, sex, phoneNumber, nickname, address, avatar, arrayList, remarkContent, longitude, latitude);
+                }
                 break;
             case R.id.ly_remarkInfo://备注信息
                 Intent intentRemark = new Intent(Activity_Balance.this, Activity_Remark.class);
