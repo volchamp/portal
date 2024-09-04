@@ -1,109 +1,26 @@
-## 在哪里找到我：
-我的GitHub：
-[https://github.com/yangxch](https://github.com/yangxch)
-
-我的CSDN：
-[https://blog.csdn.net/xch_yang](https://blog.csdn.net/xch_yang)
-
-我的简书：
-[https://www.jianshu.com/u/51edaa188222](https://www.jianshu.com/u/51edaa188222)
-
-
-我的微信公众号：程序员大佬超
+# portal
+	实现统一的用户管理、统一的授权、统一的认证；各业务子模块依据门户的设计风格、UI元素、界面标准改造成B/S架构。
+## 主要功能
+### 用户登录
+![process](https://raw.githubusercontent.com/volchamp/portal/master/screenshot/login.png)
+### 统一身份认证
+![process](https://raw.githubusercontent.com/volchamp/portal/master/screenshot/ca.png)
+* 统一认证服务作为统一门户的核心功能，通过应用权限注册、多级分层授权、精确授权、授权审批、审计和日志管理等功能，实现对各应用模块的权限的统一管理，支持基于RBAC的授权管理机制和基于PMI的权限管理模式。
+* 用户统一认证功能，用于实现所有接入应用模块进行统一认证，系统包含账号密码认证、CA认证、UKEY认证、手机验证码认证、双因子认证等多种认证方式：
+### 统一业务入口
+* 平台统一集成了各业务系统平台和业务系统平台功能模块，提供统一的业务办理入口，从统一业务办理入口可以进入到各业务系统和各业务系统的重点模块中去。
+### 统一用户管理
+* 统一用户管理是统一门户的基础功能，通过用户管理、组织机构管理、部门配置管理、用户配置管理、群组信息管理、职务管理、分级管理、用户注册流程、用户变更流程、用户注销流程、组织用户数据同步机制等功能，对组织机构和用户信息进行统一管理和维护。通过统一用户管理相关微服务接口将组织机构和用户信息推送给各应用模块，实现组织机构和用户信息的分级管理、统一管控，提供统一规范和服务规范，保障组织机构、用户数据的高效维护、有限展现和快速分发。
+* 系统平台提供统一的用户管理页面，用于管理平台基础用户和手动同步其他业务系统用户信息。
+### 统一权限管理
+* 权限管理服务作为统一门户的核心功能，通过应用权限注册、多级分层授权、精确授权、授权审批、审计和日志管理等功能，实现对各应用模块的权限管理，支持基于RBAC的授权管理机制和基于PMI的权限管理模式。对各应用模块提供三种不同级别的权限管理服务，顶层权限管理模式（入口和部件）、系统功能权限管理模式（菜单）、全部权限管理模式。
+### 统一待办
+* 统一门户的待办事项是对业务应用待办事项流转操作和统一提醒的集成规范和要求。是用户处理所有工作事项的统一入口。
 <br>
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_chaoyoung.jpg" width="20%" height="20%">
-
-----
-
-<br>
-
-# FoodOrdering
-+ 外卖点餐App，主要功能包括：登录、注册、订餐（支付方式为模拟支付）、订单管理、订单评价、用户信息管理、收货地址管理、地图定位、视频监控、送餐导航、智能客服助手（图灵机器人）、二维码扫描、微信分享、App扫码下载、当前定位城市天气查询等功能。
-
-+ **服务端及数据库备份：** [https://download.csdn.net/download/xch_yang/85464660](https://download.csdn.net/download/xch_yang/85464660)
-<br>
-
-### 主要功能模块
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/function.jpg" width="70%" height="35%">
-
-## 部分功能效果图
-
-### 首页
-<div> 
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/shoppingcar.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/find.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/nav.png" width="30%" height="30%">
-</div>
-
-### 食品详情
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/food_description.png" width="30%" height="30%">
-
-### 登录 注册
-<div> 
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/login.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/regist.png" width="30%" height="30%">
-</div>
-
-### 订餐
-<div> 
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/balance.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/payment.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/order_complete.png" width="30%" height="30%">
-</div> 
-
-### 订单管理
-<div> 
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/all_order.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/wait_comment.png" width="30%" height="30%">
-</div>
-
-### 我的评论
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/my_comment.jpg" width="30%" height="30%">
-
-### 地址管理
-<div> 
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/address_list.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/update_address.jpg" width="30%" height="30%">
-</div>
-
-### 地图定位和送餐导航
-<div> 
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/location.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/songcan.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/navigat.png" width="30%" height="30%">
-</div>
-
-### 个人信息管理
-<div>
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/user_info.png" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/modif_info.png" width="30%" height="30%">
-</div>
-
-### 智能客服助手
-<div>
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/kefu.jpg" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/caipu_list.jpg" width="30%" height="30%">
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/caipu.jpg" width="30%" height="30%">
-</div>
-
-### 分享功能
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/share.jpg" width="30%" height="30%">
-
-### 天气查询
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/weather.jpg" width="30%" height="30%">
-
-### 二维码扫描
-<img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_scan.jpg" width="30%" height="30%">
-
-后台有菜品二维码：[去后台](http://111.231.191.26/FoodOrdering)
-<br>
-商家后台管理主要功能有：**商品管理**，**商家管理**，**用户管理**，**订单管理**（具体效果可以去我公众号文章里查看）。
-<br>
-<br>
-ps：觉得有用就把 <b>star</b> 安排上哟。如果哪天App没数据了，后台管理404了，可能是我养不住服务器了。
-
-
-
-***
-欢迎关注我的公众号，获取更多系统源码、实用工具、技术干货。
-<br><img src="https://github.com/yangxch/FoodOrdering/raw/master/screenshot/qrcode_chaoyoung.jpg" width="20%" height="20%">
+![process](https://raw.githubusercontent.com/volchamp/portal/master/screenshot/hanlde.png)
+### 七、系统管理
+* 用户管理
+* 角色管理
+* 部门管理
+* 流程管理
+* 表单管理
